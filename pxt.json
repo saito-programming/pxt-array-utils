@@ -1,6 +1,7 @@
 {
     "name": "配列ユーティリティ",
     "description": "配列操作に関する便利なブロック集になります。",
+    "icon": "https://raw.githubusercontent.com/saito-programming/pxt-array-utils/master/icon.png",
     "card": {
         "name": "配列ユーティリティ",
         "description": "配列操作に関する便利なブロック集になります。",
