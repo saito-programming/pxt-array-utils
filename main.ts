@@ -1,7 +1,7 @@
 //% color="#D84315" icon="\uf0cb" block="配列ユーティリティ"
 namespace pxtArrayUtils {
 
-    //% block="%array の中からいちばん大きい数"
+    //% block="%array=lists_create_with() の中からいちばん大きい数"
     export function max(array: number[]): number {
         if (array.length == 0) {
             return 0
