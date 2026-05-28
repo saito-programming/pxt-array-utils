@@ -1,6 +1,11 @@
 {
     "name": "配列ユーティリティ",
-    "description": "",
+    "description": "配列操作に関する便利なブロック群になります。",
+    "card": {
+        "name": "配列ユーティリティ",
+        "description": "配列操作に関する便利なブロック群になります。",
+        "anyConnectors": true
+    },
     "dependencies": {
         "core": "*",
         "radio": "*",
