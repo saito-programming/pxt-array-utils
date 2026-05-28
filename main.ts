@@ -2,7 +2,6 @@
 namespace pxtArrayUtils {
 
     //% block="%array の中からいちばん大きい数"
-    //% array.values="1"
     export function max(array: number[]): number {
         if (array.length == 0) {
             return 0
