@@ -1,7 +1,15 @@
 //% color="#D84315" icon="\uf0cb" block="配列ユーティリティ"
 namespace pxtArrayUtils {
 
-    //% block="%array=lists_create_with() の中からいちばん大きい数"
+    // 【ここを追加】マイナスとプラスだけの空の配列を作るための特殊なブロック定義
+    //% blockId=lists_create_empty_with_buttons
+    //% block="[]"
+    //% shim=TD_ID
+    export function _emptyArray(): number[] {
+        return [];
+    }
+
+    //% block="%array=lists_create_empty_with_buttons の中からいちばん大きい数"
     export function max(array: number[]): number {
         if (array.length == 0) {
             return 0
